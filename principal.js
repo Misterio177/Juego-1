@@ -1,4 +1,4 @@
-var juego=new Phaser.Game(370,408,Phaser.CANVAS, 'bloque_juego');
+var juego=new Phaser.Game(420,472,Phaser.CANVAS, 'bloque_juego');
 var fondoJuego;
 var flappy;
 var teclaDerecha;
@@ -17,7 +17,7 @@ var estadoPrincipal={
 		juego.load.spritesheet('persona1','img/per.png',95.16,158.75);
 	},
 	create: function(){
-		fondoJuego=juego.add.tileSprite(0,0,370,408,'fondo');
+		fondoJuego=juego.add.tileSprite(0,0,420,472,'fondo');
 		//flappy=juego.add.sprite(juego.width/2,juego.height/2,'pajaros');
 		/*persona=juego.add.sprite(juego.width/2,juego.height/2,'personas');
 		persona.anchor.setTo(0.5);
